@@ -2052,7 +2052,7 @@ textarea.w-input, textarea.w-select {
   --colors--white: white;
   --font-families--primary: Aspekta, sans-serif;
   --colors--black: #2a2928;
-  --font-size--base: 1.125rem;
+  --font-size--base: 2.125rem;
   --font-size--small: 1rem;
   --fluid-font-size--8xl: 5.867vw;
   --font-size--7xl: 5rem;
@@ -3770,7 +3770,7 @@ figcaption {
 
   .nav-link-wrap {
     align-self: flex-start;
-    padding: 1rem 0;
+    padding: 0rem 0;
   }
 
   .nav-link-wrap.w--current {

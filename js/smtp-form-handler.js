@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
       submitButton.classList.add('loading');
       
       // Send email using Email.js library
-      emailjs.send('service_id', 'template_id', {
+      emailjs.send('ses-smtp-user.patagon-cl', 'template_yfz1ohl', {
         from_name: name,
         reply_to: email,
         message: message
