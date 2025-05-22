@@ -2144,7 +2144,7 @@ h2 {
   letter-spacing: -.02em;
   text-transform: none;
   color: inherit;
-  max-width: 23ch;
+  max-width: 100%;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
