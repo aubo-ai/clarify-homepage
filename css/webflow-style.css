@@ -2052,7 +2052,7 @@ textarea.w-input, textarea.w-select {
   --colors--white: white;
   --font-families--primary: Aspekta, sans-serif;
   --colors--black: #2a2928;
-  --font-size--base: 2.125rem;
+  --font-size--base: 1.625rem;
   --font-size--small: 1rem;
   --fluid-font-size--8xl: 5.867vw;
   --font-size--7xl: 5rem;
@@ -3325,6 +3325,7 @@ figcaption {
 .approach-paragraph {
   max-width: 40ch;
   margin-top: 2rem;
+  font-size: 1.5rem;
 }
 
 .approach-paragraph-wrap {
