@@ -21,8 +21,8 @@ const [userId, serviceId, templateId] = args;
 const indexPath = path.join(__dirname, 'index.html');
 let indexContent = fs.readFileSync(indexPath, 'utf8');
 indexContent = indexContent.replace(
-  /emailjs\.init\(".*?"\)/,
-  `emailjs.init("${userId}")`
+  /publicKey: ".*?"/,
+  `publicKey: "${userId}"`
 );
 fs.writeFileSync(indexPath, indexContent);
 console.log('✓ Updated index.html with new User ID');

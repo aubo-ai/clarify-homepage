@@ -24,11 +24,13 @@
         n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
       }(window, document);
     </script>
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
       (function() {
-        // Initialize EmailJS with your User ID
-        emailjs.init("uOpgYXDdPlQ02NxvN");
+        // Initialize EmailJS with your Public Key
+        emailjs.init({
+          publicKey: "uOpgYXDdPlQ02NxvN"
+        });
       })();
     </script>
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
