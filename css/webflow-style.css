@@ -2086,7 +2086,7 @@ textarea.w-input, textarea.w-select {
   --border-radius--medium: 1rem;
   --colors--white-20\<deleted\|variable-3b05bce5-d233-0f17-419d-ea8faff433fc\>: #fff3;
   --border-radius--small: .75rem;
-  --fluid-font-size--huge: 12vw;
+  --fluid-font-size--huge: 9vw;
   --font-size--9xl: 8.75rem;
   --font-size--8xl: 5.5rem;
   --border-radius--xs: .5rem;
@@ -2096,7 +2096,7 @@ textarea.w-input, textarea.w-select {
   --fluid-font-size--2xs: .733vw;
   --fluid-font-size--xs: 1vw;
   --fluid-font-size--small: 1.067vw;
-  --fluid-font-size--base: 1.2vw;
+  --fluid-font-size--base: 1.8vw;
   --fluid-font-size--large: 1.6vw;
   --fluid-font-size--xl: 1.867vw;
   --fluid-font-size--2xl: 2.133vw;
